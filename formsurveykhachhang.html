@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .op1{
+            width: 400px;
+        }
+        .tb8{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Market Research Survey </h1>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <hr>
+
+    <h3>What is your age range?</h3>
+    <select name="age" id="" class="op1">
+        <option value="1">18-24</option>
+        <option value="2">24-30</option>
+        <option value="3">30-40</option>
+    </select>
+
+    <h3>What is your yearly income range?</h3>
+    <select name="thunhap" id="" class="op1">
+        <option value="1">0-$25,000</option>
+        <option value="2">20-$30,000</option>
+        <option value="3">30-$40,000</option>
+    </select>
+
+    <h3>Gender</h3>
+    <input type="radio" name="gender" id="male">Male <br>
+    <input type="radio" name="gender" id="female">Female
+
+    <h3>Which of the following products have your purchased in the last 2 months. Please check all that apply.</h3>
+    <input type="radio" name="product">Product 1 <br>
+    <input type="radio" name="product">Product 2 <br>
+    <input type="radio" name="product">Product 3
+
+    <h3>How often would you use our new product</h3>
+    <input type="radio" name="time">Daily <br>
+    <input type="radio" name="time">Weekly <br>
+    <input type="radio" name="time">Monthly
+
+    <h3>What would you pay for the new product</h3>
+    $ <input type="text" name="dollar" placeholder="Dollar"> . <input type="text" name="quality" placeholder="Cent">
+    
+    <h3>What features would you like to see in the new product.</h3>
+    <textarea name="" id="" cols="100" rows="10"></textarea>
+
+    <h4>Please rate your level of agreement with the following statement.</h4>
+    <table border="1" class="tb8">
+        <tr>
+            <td></td>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr>
+            <td>Our product are priced fairly</td>
+            <td><input type="radio" name="tick" id> <br>1</td>
+            <td><input type="radio" name="tick" id> <br>2</td>
+            <td><input type="radio" name="tick" id> <br>3</td>
+            <td><input type="radio" name="tick" id> <br>4</td>
+        </tr>
+        <tr>
+            <td>Our product are high quality</td>
+            <td><input type="radio" name="tick" id> <br>1</td>
+            <td><input type="radio" name="tick" id> <br>2</td>
+            <td><input type="radio" name="tick" id> <br>3</td>
+            <td><input type="radio" name="tick" id> <br>4</td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker</td>
+            <td><input type="radio" name="tick" id> <br>1</td>
+            <td><input type="radio" name="tick" id> <br>2</td>
+            <td><input type="radio" name="tick" id> <br>3</td>
+            <td><input type="radio" name="tick" id> <br>4</td>
+        </tr>
+    </table>
+    <input type="submit">
+</body>
+</html>
